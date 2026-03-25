@@ -2,6 +2,8 @@ import React from 'react';
 import dollarImg from '../../assets/dollar-1.png'
 import logo from '../../assets/logo.png'
 import NavLinks from './NavLinks';
+
+
 const Navbar = () => {
     return (
         <nav className='container mx-auto my-6'>

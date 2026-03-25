@@ -1,7 +1,7 @@
 import './App.css'
-import Navbar from '../components/navbar/Navbar'
-import Banner from '../components/banner/Banner'
-import PlayersBox from '../components/playersBox/PlayersBox'
+import Navbar from './components/navbar/Navbar'
+import Banner from './components/banner/Banner'
+import PlayersBox from './components/playersBox/PlayersBox'
 import { Suspense } from 'react'
 
 // const fetchPlayer = fetch('/players-data.json').then(res => res.json());
