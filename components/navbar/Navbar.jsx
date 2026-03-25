@@ -1,10 +1,11 @@
 import React from 'react';
 import dollarImg from '../../assets/dollar-1.png'
 import logo from '../../assets/logo.png'
+import NavLinks from './NavLinks';
 const Navbar = () => {
     return (
-        <nav className='container mx-auto mt-12'>
-            <div className="navbar bg-base-100 shadow-sm">
+        <nav className='container mx-auto my-6'>
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,22 +13,16 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex="-1"
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Fixture</a></li>
-                            <li><a>Teams</a></li>
-                            <li><a>Schedules</a></li>
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-gray-500">
+                            <NavLinks />
                         </ul>
                     </div>
                     <img src={logo} alt="" />
                 </div>
 
                 <div className="navbar-end ">
-                    <ul className="menu menu-horizontal px-1 hidden lg:flex  mr-12">
-                        <li><a>Home</a></li>
-                        <li><a>Fixture</a></li>
-                        <li><a>Teams</a></li>
-                        <li><a>Schedules</a></li>
+                    <ul className="menu menu-horizontal px-1 hidden lg:flex  mr-12 text-gray-500">
+                        <NavLinks />
                     </ul>
                     <a className="btn">0 Coin <img src={dollarImg} alt="" /></a>
                 </div>
