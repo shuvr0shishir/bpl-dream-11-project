@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Virat Kohli",
+        "country": "India",
+        "type": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm medium",
+        "rating": 95,
+        "price": 1200000,
+        "img": "https://i.ibb.co.com/bgxkYCKx/image.png"
+    },
+    {
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "type": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "rating": 92,
+        "price": 1100000,
+        "img": "https://i.ibb.co.com/dsBrfvtj/image.png"
+    },
+    {
+        "name": "Ben Stokes",
+        "country": "England",
+        "type": "All-Rounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm fast-medium",
+        "rating": 93,
+        "price": 1150000,
+        "img": "https://i.ibb.co.com/5gGJkyrT/image.png"
+    },
+    {
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "type": "Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Right-arm offbreak",
+        "rating": 90,
+        "price": 1050000,
+        "img": "https://i.ibb.co.com/rGtpk69k/image.png"
+    },
+    {
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "type": "All-Rounder",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Slow left-arm orthodox",
+        "rating": 94,
+        "price": 1000000,
+        "img": "https://i.ibb.co.com/PG9fVVVh/image.png"
+    },
+    {
+        "name": "David Warner",
+        "country": "Australia",
+        "type": "Batsman",
+        "batting_style": "Left-hand bat",
+        "bowling_style": "Right-arm legbreak",
+        "rating": 89,
+        "price": 980000,
+        "img": "https://i.ibb.co.com/GKNLf3Q/image.png"
+    },
+    {
+        "name": "Jos Buttler",
+        "country": "England",
+        "type": "Wicketkeeper-Batsman",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "N/A",
+        "rating": 91,
+        "price": 1080000,
+        "img": "https://i.ibb.co.com/CL3ZL1H/image.png"
+    },
+    {
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "type": "Bowler",
+        "batting_style": "Right-hand bat",
+        "bowling_style": "Left-arm fast-medium",
+        "rating": 88,
+        "price": 950000,
+        "img": "https://i.ibb.co.com/3mDZ7XdV/image.png"
+    }
+]
