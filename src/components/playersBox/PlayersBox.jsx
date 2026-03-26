@@ -11,7 +11,7 @@ const PlayersBox = ({ playersPromise, coin, setCoin }) => {
 
     return (
         <div className='container mx-auto mb-8'>
-            <div className='flex justify-between items-center mb-8'>
+            <div className='flex justify-between items-center mb-8 mt-12'>
                 <h2 className='text-2xl font-bold'>
                     {tab === 'available' ?
                         'Available Players' :

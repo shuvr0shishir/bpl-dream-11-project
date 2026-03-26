@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="bg-[#06091A] text-white pt-50 mt-66 relative">
             <div className="container mx-auto p-4 bg-white/15 border-2 border-white rounded-3xl absolute left-1/2 -translate-x-1/2 -top-1/5">
                 <div
-                    className="rounded-3xl py-20 text-center shadow-lg bg-white"
+                    className="rounded-3xl py-10 sm:py-20 px-10 text-center shadow-lg bg-white"
                     style={{ backgroundImage: `url(${bgShadow})` }}
                 >
-                    <h2 className="text-2xl font-bold text-gray-800">
+                    <h2 className="text-lg sm:text-2xl font-bold text-gray-800">
                         Subscribe to our Newsletter
                     </h2>
                     <p className="text-gray-600 mt-2">
