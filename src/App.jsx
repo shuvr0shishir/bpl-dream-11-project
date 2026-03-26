@@ -3,6 +3,8 @@ import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner'
 import PlayersBox from './components/playersBox/PlayersBox'
 import { Suspense, useState } from 'react'
+import { ToastContainer } from 'react-toastify';
+import Footer from './components/Footer/Footer'
 
 // const fetchPlayer = fetch('/players-data.json').then(res => res.json());
 
@@ -26,6 +28,11 @@ function App() {
           <PlayersBox playersPromise={playersPromise} coin={coin} setCoin={setCoin} />
         </Suspense>
       </main>
+      <Footer />
+
+
+      {/* react toastify */}
+      <ToastContainer />
     </>
   )
 }

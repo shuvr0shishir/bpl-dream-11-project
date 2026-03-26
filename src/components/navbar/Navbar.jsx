@@ -26,7 +26,7 @@ const Navbar = ({ coin }) => {
                     <ul className="menu menu-horizontal px-1 hidden lg:flex  mr-12 text-gray-500">
                         <NavLinks />
                     </ul>
-                    <a className="btn">{coin} Coin <img src={dollarImg} alt="" /></a>
+                    <p className="badge badge-outline border-2 border-[#13131310] p-5">{coin} Coins<img src={dollarImg} alt="" /></p>
                 </div>
             </div>
         </nav>

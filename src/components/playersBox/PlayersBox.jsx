@@ -4,7 +4,9 @@ import SelectedPlayers from './SelectedPlayers';
 
 const PlayersBox = ({ playersPromise, coin, setCoin }) => {
     const playersData = use(playersPromise)
+
     const [tab, setTab] = useState('available')
+
     const [selectedPlayer, setSelectedPlayer] = useState([])
 
     return (
@@ -38,8 +40,20 @@ const PlayersBox = ({ playersPromise, coin, setCoin }) => {
 
             {
                 tab === 'available' ?
-                    <AvailablePlayer playersData={playersData} coin={coin} setCoin={setCoin} selectedPlayer={selectedPlayer} setSelectedPlayer={setSelectedPlayer} /> :
-                    <SelectedPlayers selectedPlayer={selectedPlayer} />
+                    <AvailablePlayer
+                        playersData={playersData}
+                        coin={coin}
+                        setCoin={setCoin}
+                        selectedPlayer={selectedPlayer}
+                        setSelectedPlayer={setSelectedPlayer}
+                    /> :
+                    <SelectedPlayers
+                        selectedPlayer={selectedPlayer}
+                        setSelectedPlayer={setSelectedPlayer}
+                        setTab={setTab}
+                        coin={coin}
+                        setCoin={setCoin}
+                    />
             }
         </div>
     );

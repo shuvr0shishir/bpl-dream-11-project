@@ -16,7 +16,7 @@
         "batting_style": "Right-hand bat",
         "bowling_style": "Right-arm offbreak",
         "rating": 92,
-        "price": 1100,
+        "price": 1100000,
         "img": "https://i.ibb.co.com/dsBrfvtj/image.png"
     },
     {
@@ -76,7 +76,7 @@
         "batting_style": "Right-hand bat",
         "bowling_style": "Left-arm fast-medium",
         "rating": 88,
-        "price": 950,
+        "price": 950000,
         "img": "https://i.ibb.co.com/3mDZ7XdV/image.png"
     }
 ]
