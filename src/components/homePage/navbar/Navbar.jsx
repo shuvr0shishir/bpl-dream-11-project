@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 import NavLinks from './NavLinks';
 
 
-const Navbar = ({ coin }) => {
+const Navbar = () => {
     return (
         <nav className='container mx-auto my-6'>
             <div className="navbar bg-base-100">
@@ -26,7 +26,7 @@ const Navbar = ({ coin }) => {
                     <ul className="menu menu-horizontal px-1 hidden lg:flex  mr-12 text-gray-500">
                         <NavLinks />
                     </ul>
-                    <a className="btn">{coin} Coin <img src={dollarImg} alt="" /></a>
+                    <a className="btn">0 Coin <img src={dollarImg} alt="" /></a>
                 </div>
             </div>
         </nav>

@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner'
 import PlayersBox from './components/playersBox/PlayersBox'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 // const fetchPlayer = fetch('/players-data.json').then(res => res.json());
 
@@ -13,16 +13,17 @@ const fetchPlayer = async () => {
 
 function App() {
   const playersPromise = fetchPlayer();
+  const [coin, setCoin] = useState(50000)
 
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar coin={coin} />
       </header>
       <main>
         <Banner />
-        <Suspense fallback={<span class="loading loading-dots loading-xl mx-auto block my-20"></span>}>
-          <PlayersBox playersPromise={playersPromise} />
+        <Suspense fallback={<span className="loading loading-dots loading-xl mx-auto block min-h-screen"></span>}>
+          <PlayersBox playersPromise={playersPromise} coin={coin} setCoin={setCoin} />
         </Suspense>
       </main>
     </>
